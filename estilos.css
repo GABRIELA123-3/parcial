@@ -1,0 +1,184 @@
+
+main{
+    min-height: 100vh;
+   background: linear-gradient(rgba(138, 6, 127, 0.4),rgba(27, 26, 26, 0.4)),
+   url("imagenes/fondo.jpg") no-repeat center center fixed; 
+    background-size:cover;/*cubrir todo*/
+    color:rgb(255, 255, 255);
+    
+}
+
+#contenedor{    
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;  
+    font-family: Helvetica, sans-serif;    
+}
+#navegador{
+    position: sticky;
+    top:0;
+    background-color: white;
+    z-index: 20;
+    border:1px solid white;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin:20px;
+}
+.menu li{
+    padding:10px
+}
+.menu li a{
+    text-decoration: none;
+    padding:10px;
+    text-transform: uppercase;
+    color:white
+}
+.menu li a:hover{
+    opacity: 0.5;
+}
+
+.redes{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+   background-color: rgb(105, 0, 146);
+    
+}
+.redes li a{
+    padding: 5px;
+}
+.redes li a:hover{
+    opacity: 0.5;
+}
+.redes li a img{
+    filter: invert(100%);
+}
+h1{
+    font-size: 5em;
+    letter-spacing: 7px;
+    padding:20px;
+    font-style: italic;
+    text-align: center;
+}
+
+span{
+    font-style: oblique;
+    opacity: 0.75;
+}
+h2{
+    font-size: 1.5em;
+    margin: 20px;
+    text-align: center;
+    
+}
+.menu2{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin:20px;
+}
+.menu2 li{
+    padding:1px
+}
+.menu2 li a{
+    text-decoration: none;
+    padding:10px;
+    text-transform: uppercase;
+    color:rgb(228, 27, 27)
+}
+.menu2 li a:hover{
+    opacity: 0.5;
+}
+.imagen{
+ width: 400px;
+
+}
+.contenedor{
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+.blog{
+    color: rgb(81, 14, 143);
+}
+.texto1{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-align: justify;
+ 
+
+}
+.blog2{
+    text-align: left;
+    color: rgb(117, 24, 204);
+    font-size: 22px;
+}
+.blog3{
+    font-size:15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    text-align: left;
+}
+.img1{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 300px;
+
+}
+.img2{
+    width: 300px;  
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.img3{
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.img4{
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.galeria{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+    display: grid;
+    grid-gap: 10px; /* Espacio entre las imágenes */
+}
+.video{
+    display: flex;
+justify-content: center;
+}
+.parrafo1{
+justify-content: center;
+text-align: justify;
+font-size: 18px;
+}
+
